@@ -27,6 +27,7 @@ logistics-intern/
 ├── data/
 │   └── generate_sample_data.py   # builds the synthetic delivery dataset
 ├── src/
+<<<<<<< HEAD
 │   ├── data_cleaning.py          # Week 1: dedup, impute, outlier removal
 │   ├── eda.py                    # Week 1: KPI computation + charts
 │   ├── clustering.py             # Week 1: K-Means delivery segmentation
@@ -34,6 +35,13 @@ logistics-intern/
 │   ├── route_optimization.py     # Week 1: nearest-neighbor route sequencing
 │   └── week2_preprocessing.py    # Week 2: audited cleaning + IQR/Z-score
 │                                  #         outlier comparison + normalization
+=======
+│   ├── data_cleaning.py          # dedup, impute, outlier removal
+│   ├── eda.py                    # KPI computation + charts
+│   ├── clustering.py             # K-Means delivery segmentation
+│   ├── regression_model.py       # delivery-time prediction + SLA risk
+│   └── route_optimization.py     # nearest-neighbor route sequencing
+>>>>>>> 370b30b670ab78d947ff8ead27501755579e263e
 ├── requirements.txt
 └── README.md
 ```
@@ -71,6 +79,7 @@ assumption behind the simulated numbers — see the docstring in that file.
 
 Full write-up, literature context, and roadmap are in the submitted
 Word report (`Week1_Strategic_Planning_Report.docx`).
+<<<<<<< HEAD
 
 ## Week 2 — Data Collection, Cleaning, and Preprocessing
 
@@ -85,3 +94,5 @@ fits its downstream use (clustering vs. regression). Full write-up in
 cd data && python generate_sample_data.py
 cd ../src && python week2_preprocessing.py
 ```
+=======
+>>>>>>> 370b30b670ab78d947ff8ead27501755579e263e
