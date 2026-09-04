@@ -27,15 +27,31 @@ logistics-intern/
 ├── data/
 │   └── generate_sample_data.py   # builds the synthetic delivery dataset
 ├── src/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9f1125463551aa461531eca0cf2319fbbb9d7c67
 │   ├── data_cleaning.py          # Week 1: dedup, impute, outlier removal
 │   ├── eda.py                    # Week 1: KPI computation + charts
 │   ├── clustering.py             # Week 1: K-Means delivery segmentation
 │   ├── regression_model.py       # Week 1: delivery-time prediction + SLA risk
 │   ├── route_optimization.py     # Week 1: nearest-neighbor route sequencing
+<<<<<<< HEAD
 │   ├── week2_preprocessing.py    # Week 2: audited cleaning + IQR/Z-score
 │   │                              #         outlier comparison + normalization
 │   └── week3_visualization.py    # Week 3: descriptive stats, correlation,
 │                                  #         distribution/relationship/trend charts
+=======
+│   └── week2_preprocessing.py    # Week 2: audited cleaning + IQR/Z-score
+│                                  #         outlier comparison + normalization
+=======
+│   ├── data_cleaning.py          # dedup, impute, outlier removal
+│   ├── eda.py                    # KPI computation + charts
+│   ├── clustering.py             # K-Means delivery segmentation
+│   ├── regression_model.py       # delivery-time prediction + SLA risk
+│   └── route_optimization.py     # nearest-neighbor route sequencing
+>>>>>>> 370b30b670ab78d947ff8ead27501755579e263e
+>>>>>>> 9f1125463551aa461531eca0cf2319fbbb9d7c67
 ├── requirements.txt
 └── README.md
 ```
@@ -73,6 +89,10 @@ assumption behind the simulated numbers — see the docstring in that file.
 
 Full write-up, literature context, and roadmap are in the submitted
 Word report (`Week1_Strategic_Planning_Report.docx`).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9f1125463551aa461531eca0cf2319fbbb9d7c67
 
 ## Week 2 — Data Collection, Cleaning, and Preprocessing
 
@@ -87,6 +107,7 @@ fits its downstream use (clustering vs. regression). Full write-up in
 cd data && python generate_sample_data.py
 cd ../src && python week2_preprocessing.py
 ```
+<<<<<<< HEAD
 
 ## Week 3 — Advanced Data Analysis and Visualization
 
@@ -101,3 +122,7 @@ Full write-up in `Week3_Advanced_Analysis_Visualization_Report.docx`.
 ```bash
 cd src && python data_cleaning.py && python week3_visualization.py
 ```
+=======
+=======
+>>>>>>> 370b30b670ab78d947ff8ead27501755579e263e
+>>>>>>> 9f1125463551aa461531eca0cf2319fbbb9d7c67
